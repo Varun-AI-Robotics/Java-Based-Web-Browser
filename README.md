@@ -22,10 +22,10 @@ Ensure you have:
 
 ### 📁 Step 1: Set JavaFX SDK Path
 
-Locate your JavaFX SDK `lib` directory. For example:
+Locate your JavaFX SDK `lib` directory.
 
 
-  for example: "V:\openjfx-21.0.7_windows-x64_bin-sdk\javafx-sdk-21.0.7\lib"
+  For example: "V:\openjfx-21.0.7_windows-x64_bin-sdk\javafx-sdk-21.0.7\lib"
 
 
 
@@ -59,8 +59,8 @@ javac --module-path "V:\openjfx-21.0.7_windows-x64_bin-sdk\javafx-sdk-21.0.7\lib
 ```bash
 java --module-path "V:\openjfx-21.0.7_windows-x64_bin-sdk\javafx-sdk-21.0.7\lib" --add-modules javafx.controls,javafx.web -cp "../out;..\lib\mysql-connector-java-8.0.33.jar" SimpleWebBrowser
 ```
-# ⚠️ NOTE:
+### ⚠️ NOTE:
 Replace the JavaFX SDK lib path with your local path in the compile and run commands above.
 
-# 📸 Screenshot:
+## 📸 Screenshot:
 ![image alt](https://github.com/Varun-AI-Robotics/Java-Based-Web-Browser/blob/main/Screenshot%202025-05-25%20163824.png?raw=true)
